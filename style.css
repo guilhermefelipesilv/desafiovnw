@@ -20,10 +20,50 @@ img{
 main{
 	display:flex;
 	flex-wrap:wrap;
-	
+	width: 80%;
 } 
 section{
 	padding:15px;
 	margin:5px;
 	background: #fff;
+}
+.sec1{
+	width:68%;
+}
+.sec2 {
+	width:30%; 
+	display:flex;
+
+}
+.sec2 div{
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items: flex-end;
+	margin:5px;
+}
+
+.sec2 div img{
+	width:83px;
+}
+.sec3{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	width:25%;
+	align-items:center;
+	align-content: flex-start;
+}
+.sec3 img{
+		margin:5px;
+}
+.sec4{
+	display:flex;
+	flex-wrap:wrap;
+	width: 65%;
+	align-items:flex-start;
+
+}
+.sec7{
+
 }
