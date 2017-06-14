@@ -11,12 +11,12 @@ html,body{
 body{
 	background:#D3D3D3;
 }
-.cubo{
+/*.cubo{
 	width:50px;
-}
-img{
+}*/
+/*img{
 	width: 100px;
-}
+}*/
 main{
 	display:flex;
 	flex-wrap:wrap;
@@ -46,9 +46,12 @@ section{
 .sec2 div img{
 	width:83px;
 }
+.sec3 p{
+	font-family: "Times New Romam - italico";
+}
 .sec3{
 	width:30%;
-	font-family:serif
+	font-family:serif;
 }
 .sec3 img{
 		width:49%; 
@@ -60,22 +63,21 @@ section{
 	display:flex;
 	flex-wrap:wrap; 
 	width: 68%;
-	font-size: 10px;
-	margin: 5px;
+	font-size:10px;
+	/*margin: 5%;*/
 	padding: 15px;
 }
 .sec4 h2{
-	margin-top: 3px;
-	margin-bottom:15px;
+	margin-top: 2px;
+	margin-bottom:10px;
 }
-.sec4 h3{
-	font-size:20px;
-	/*position: relative;	top:0px left: 5px;*/*/
+.sec4 div{
+	margin:0;
+	width:44%; 
 }
+
 .sec4 div h3{
-	margin-bottom: 0;
-}
-.sec4 div h3{
+	font-size:30px;
 	margin-bottom: 0;
 }
 .sec4 div ul{
@@ -84,47 +86,21 @@ section{
 	margin-top: 2px;
 }
 .sec4 div ul li{
-	font-size: 11px;
+	font-size: 13px;
 }
 .sec4 div ul li:before{
 	content: "- ";
 }
 .sec4 div img{
 	display: flex;
-	/*position: relative;	top:0px;	left: 15px;*/
-	/*align-self: center;*/*/
-	width:80%;
+	width: 80%;
 }
-.sec4 img{
-	width: 70%;
-}
-.sec4 div ul{
-	position: relative;top: 0px;	left: 5px;
-	list-style: inside none;
-	padding: 0;
-	margin-top: 2px;
-}
-.sec4 div ul li{
-	font-size: 11px;
-}
-.sec4 div ul li:before{
-	content: "- ";
-}
-.sec4 div img{
-	display: flex;
-	position: relative;	top:0px;	left: 15px;
-	/*align-self: center;*/
-	width: 75%;
-}
-.sec4 img{
-	width: 100%;
-}
+
 .sec5{
 	display: flex;
 	flex-wrap: wrap;
 	width: 44.95%;
-	/*font-size: 15px;*/
-	/*padding: 15px;*/
+
 }
 .sec5 h3{
 	margin-top: 5px;
@@ -134,10 +110,9 @@ section{
 .sec5 p{
 	margin-top: 2px;
 	font-size: 15px;
-	/*margin-bottom: 0;*/
 }
 .sec6{
-	width: 26%;
+	width: 35%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -147,14 +122,13 @@ section{
 	width: 100%;
 	font-size: 15px;
 	margin-top: 5px;
-	/*padding: 5px;*/
 	margin-bottom: 0px;
 }
 .sec6 img{
 	width: 85%;
 }
 .sec7{
-	width: 17.6%;
+	width: 17%;
 }
 .sec7 h3{
 	margin-top: 5px;
@@ -172,5 +146,9 @@ section{
 	margin-bottom: 8px;
 }
 .sec7 ul li:before{
-	content: "• "
+	content: "• ";
+}
+@font-face{
+	font-family: "Times New Romam - italico";
+	src: url(fonts/timesi.ttf); 
 }
